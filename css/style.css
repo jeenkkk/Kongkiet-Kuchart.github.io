@@ -90,6 +90,73 @@ body.full-height {
 }
 
 
+/* JUMP */
+h5 {
+  cursor: default;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+h5 span {
+  position: relative;
+  display: inline-block;
+  -webkit-animation: bounce 1s ease infinite alternate;
+  font-size: 40px;
+  color: #fff;
+}
+
+h5 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h5 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h5 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h5 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h5 span:nth-child(8) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h5 span:nth-child(9) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h5 span:nth-child(10) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h5 span:nth-child(11) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h5 span:nth-child(12) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h5 span:nth-child(13) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h5 span:nth-child(14) {
+  -webkit-animation-delay: 0.5s;
+}
+
+
 
 /*portfolio*/
 
@@ -251,36 +318,36 @@ body {
 
 
 
-.skill_inner-bar--80 {
-	width: 80%;
+.skill_inner-bar--50 {
+	width: 50%;
 	background: #F8A518;
 }
-.skill_inner-bar--40 {
-	width: 40%;
+.skill_inner-bar--39 {
+	width: 39%;
 	background: #18a6f8;
 }
-.skill_inner-bar--90 {
-	width: 90%;
+.skill_inner-bar--81 {
+	width: 81%;
 	background: #f8dd18;
 }
-.skill_inner-bar--92 {
-	width: 92%;
+.skill_inner-bar--64 {
+	width: 64%;
 	background: #8718f8;
 }
-.skill_inner-bar--60 {
-	width: 60%;
+.skill_inner-bar--44 {
+	width: 44%;
 	background: #f818B5;
 }
-.skill_inner-bar--85 {
-	width: 85%;
+.skill_inner-bar--76 {
+	width: 76%;
 	background: #d5d8dc;
 }
 .skill_inner-bar--83 {
 	width: 83%;
 	background: #ABEBC6;
 }
-.skill_inner-bar--72 {
-	width: 72%;
+.skill_inner-bar--58 {
+	width: 58%;
 	background: #7B241C;
 }
 
@@ -354,12 +421,10 @@ body {
   color: white;
 }
 
-
-
-
-
-
-
+.fa-instagram {
+  background: #f818B5;
+  color: white;
+}
 
 
 
@@ -389,17 +454,6 @@ body {
 .form-group textarea {
   width: 90%;
   color: black;
-}
-
-.map {
-	margin: 20px;
-	padding-top: 20px;
-
-}
-
-#map {
-  height: 100px;
-  width: 100%;
 }
 
 .btn {
